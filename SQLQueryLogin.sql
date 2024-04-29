@@ -7,7 +7,7 @@ CREATE TABLE Usuario
 (
     Id int primary key identity(1,1),
 	Correo varchar(100),
-	Contraseña varchar(50),
+	ContraseÃ±a varchar(50),
 	Nombre varchar(50),
 	Apellido varchar(50)
 )
@@ -16,7 +16,7 @@ CREATE TABLE Usuario
 CREATE PROCEDURE sp_RegistrarUsuario
 (
 @Correo varchar(100),
-@Contraseña varchar(50),
+@ContraseÃ±a varchar(50),
 @Nombre varchar(50),
 @Apellido varchar(50),
 @Registrado bit output,
@@ -28,7 +28,7 @@ BEGIN
 
     IF(NOT EXISTS(SELECT * FROM Usuario WHERE Correo = @Correo))
 	BEGIN
-	    INSERT INTO Usuario(Correo,Contraseña,Nombre,Apellido) values (@Correo, @Contraseña, @Nombre, @Apellido)
+	    INSERT INTO Usuario(Correo,ContraseÃ±a,Nombre,Apellido) values (@Correo, @ContraseÃ±a, @Nombre, @Apellido)
 		SET @Registrado = 1
 		SET @Mensaje = 'Usuario registrado'
 	END
@@ -48,12 +48,12 @@ END
 CREATE PROCEDURE sp_ValidarUsuario
 (
 @Correo varchar(100),
-@Contraseña varchar(50)
+@ContraseÃ±a varchar(50)
 )
 AS
 BEGIN
-    IF(EXISTS(SELECT * FROM Usuario WHERE Correo = @Correo AND Contraseña = @Contraseña))
-	    SELECT Id FROM Usuario WHERE Correo = @Correo AND Contraseña = @Contraseña
+    IF(EXISTS(SELECT * FROM Usuario WHERE Correo = @Correo AND ContraseÃ±a = @ContraseÃ±a))
+	    SELECT Id FROM Usuario WHERE Correo = @Correo AND ContraseÃ±a = @ContraseÃ±a
 	ELSE
 	    SELECT '0'
 END
@@ -64,7 +64,8 @@ CREATE TABLE Tarea
     Id int primary key identity(1,1),
 	NombreProyecto varchar(50),
 	NombreCliente varchar(50),
-	Descripcion varchar(100)
+	Descripcion varchar(100),
+	Estado bit
 )
 
 
