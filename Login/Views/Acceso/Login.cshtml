@@ -1,0 +1,81 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="~/Content/css/registrar.css" rel="stylesheet" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+
+
+        <div class="container">
+            <center>
+                <div class="middle">
+                    <div id="login">
+
+                        <form action="@Url.Action("Login", "Acceso")" method="post">
+
+                            <fieldset class="clearfix">
+
+                                <p><span class="fa fa-envelope"></span><input type="text" name="Correo" Placeholder="Email" required></p> <!-- JS because of IE support; better: placeholder="Username" -->
+                                <p><span class="fa fa-lock"></span><input type="password" name="Contraseña" Placeholder="Contraseña" required></p> <!-- JS because of IE support; better: placeholder="Password" -->
+
+                                <div>
+                                    <span style="width:48%; text-align:left;  display: inline-block;">
+                                        <a class="ml-2 mt-9">¿No tienes una cuenta?</a>
+                                        <a class="small-text" href="@Url.Action("Registrar", "Acceso")">
+                                            Registrase
+                                        </a>
+                                    </span>
+
+                                    @if (ViewData["Mensaje"] != null)
+                                    {
+                                        <div class=" mt-3 alert alert-danger" role="alert">
+                                            @ViewData["Mensaje"]
+                                        </div>
+                                    }
+
+
+
+                                    <span style="width:50%; text-align:right;  display: inline-block;"><input type="submit" value="Iniciar Sesion"></span>
+                                </div>
+
+                            </fieldset>
+                            <div class="clearfix"></div>
+                        </form>
+
+                        <div class="clearfix"></div>
+
+                    </div> <!-- end login -->
+                    <div class="logo">
+                        LOGIN
+
+                        <div class="clearfix"></div>
+                    </div>
+
+                </div>
+            </center>
+        </div>
+
+    </div>
+
+   
+</body>
+</html>

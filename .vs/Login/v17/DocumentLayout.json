@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nacho Gaute\\source\\repos\\Login\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8B4684-226F-4DA1-970A-45254F85DA06}|Login\\Login.csproj|C:\\Users\\Nacho Gaute\\source\\repos\\Login\\login\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8B4684-226F-4DA1-970A-45254F85DA06}|Login\\Login.csproj|solutionrelative:login\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8B4684-226F-4DA1-970A-45254F85DA06}|Login\\Login.csproj|c:\\users\\nacho gaute\\source\\repos\\login\\login\\controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8B4684-226F-4DA1-970A-45254F85DA06}|Login\\Login.csproj|solutionrelative:login\\controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8B4684-226F-4DA1-970A-45254F85DA06}|Login\\Login.csproj|C:\\Users\\Nacho Gaute\\source\\repos\\Login\\login\\models\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8B4684-226F-4DA1-970A-45254F85DA06}|Login\\Login.csproj|solutionrelative:login\\models\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8B4684-226F-4DA1-970A-45254F85DA06}|Login\\Login.csproj|c:\\users\\nacho gaute\\source\\repos\\login\\login\\views\\acceso\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE8B4684-226F-4DA1-970A-45254F85DA06}|Login\\Login.csproj|solutionrelative:login\\views\\acceso\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8B4684-226F-4DA1-970A-45254F85DA06}|Login\\Login.csproj|C:\\Users\\Nacho Gaute\\source\\repos\\Login\\login\\views\\home\\integrantes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE8B4684-226F-4DA1-970A-45254F85DA06}|Login\\Login.csproj|solutionrelative:login\\views\\home\\integrantes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8B4684-226F-4DA1-970A-45254F85DA06}|Login\\Login.csproj|C:\\Users\\Nacho Gaute\\source\\repos\\Login\\login\\views\\home\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE8B4684-226F-4DA1-970A-45254F85DA06}|Login\\Login.csproj|solutionrelative:login\\views\\home\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8B4684-226F-4DA1-970A-45254F85DA06}|Login\\Login.csproj|C:\\Users\\Nacho Gaute\\source\\repos\\Login\\login\\views\\home\\agregartarea.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE8B4684-226F-4DA1-970A-45254F85DA06}|Login\\Login.csproj|solutionrelative:login\\views\\home\\agregartarea.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8B4684-226F-4DA1-970A-45254F85DA06}|Login\\Login.csproj|C:\\Users\\Nacho Gaute\\source\\repos\\Login\\login\\views\\home\\tarea.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE8B4684-226F-4DA1-970A-45254F85DA06}|Login\\Login.csproj|solutionrelative:login\\views\\home\\tarea.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8B4684-226F-4DA1-970A-45254F85DA06}|Login\\Login.csproj|C:\\Users\\Nacho Gaute\\source\\repos\\Login\\login\\models\\tareace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8B4684-226F-4DA1-970A-45254F85DA06}|Login\\Login.csproj|solutionrelative:login\\models\\tareace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Nacho Gaute\\source\\repos\\Login\\Login\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Login\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Nacho Gaute\\source\\repos\\Login\\Login\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Login\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T16:03:50.024Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nacho Gaute\\source\\repos\\Login\\Login\\Views\\Acceso\\Login.cshtml",
+              "RelativeDocumentMoniker": "Login\\Views\\Acceso\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Nacho Gaute\\source\\repos\\Login\\Login\\Views\\Acceso\\Login.cshtml",
+              "RelativeToolTip": "Login\\Views\\Acceso\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T15:06:32.26Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccesoController.cs",
+              "DocumentMoniker": "C:\\Users\\Nacho Gaute\\source\\repos\\Login\\Login\\Controllers\\AccesoController.cs",
+              "RelativeDocumentMoniker": "Login\\Controllers\\AccesoController.cs",
+              "ToolTip": "C:\\Users\\Nacho Gaute\\source\\repos\\Login\\Login\\Controllers\\AccesoController.cs",
+              "RelativeToolTip": "Login\\Controllers\\AccesoController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAUwDEAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T13:24:14.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Integrantes.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nacho Gaute\\source\\repos\\Login\\Login\\Views\\Home\\Integrantes.cshtml",
+              "RelativeDocumentMoniker": "Login\\Views\\Home\\Integrantes.cshtml",
+              "ToolTip": "C:\\Users\\Nacho Gaute\\source\\repos\\Login\\Login\\Views\\Home\\Integrantes.cshtml",
+              "RelativeToolTip": "Login\\Views\\Home\\Integrantes.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-28T17:23:36.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nacho Gaute\\source\\repos\\Login\\Login\\Views\\Home\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Login\\Views\\Home\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\Nacho Gaute\\source\\repos\\Login\\Login\\Views\\Home\\Editar.cshtml",
+              "RelativeToolTip": "Login\\Views\\Home\\Editar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-28T17:20:55.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AgregarTarea.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nacho Gaute\\source\\repos\\Login\\Login\\Views\\Home\\AgregarTarea.cshtml",
+              "RelativeDocumentMoniker": "Login\\Views\\Home\\AgregarTarea.cshtml",
+              "ToolTip": "C:\\Users\\Nacho Gaute\\source\\repos\\Login\\Login\\Views\\Home\\AgregarTarea.cshtml",
+              "RelativeToolTip": "Login\\Views\\Home\\AgregarTarea.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-28T17:15:03.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Tarea.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nacho Gaute\\source\\repos\\Login\\Login\\Views\\Home\\Tarea.cshtml",
+              "RelativeDocumentMoniker": "Login\\Views\\Home\\Tarea.cshtml",
+              "ToolTip": "C:\\Users\\Nacho Gaute\\source\\repos\\Login\\Login\\Views\\Home\\Tarea.cshtml",
+              "RelativeToolTip": "Login\\Views\\Home\\Tarea.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T20:59:16.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TareaCE.cs",
+              "DocumentMoniker": "C:\\Users\\Nacho Gaute\\source\\repos\\Login\\Login\\Models\\TareaCE.cs",
+              "RelativeDocumentMoniker": "Login\\Models\\TareaCE.cs",
+              "ToolTip": "C:\\Users\\Nacho Gaute\\source\\repos\\Login\\Login\\Models\\TareaCE.cs",
+              "RelativeToolTip": "Login\\Models\\TareaCE.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T20:57:21.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tarea.cs",
+              "DocumentMoniker": "C:\\Users\\Nacho Gaute\\source\\repos\\Login\\Login\\Models\\Tarea.cs",
+              "RelativeDocumentMoniker": "Login\\Models\\Tarea.cs",
+              "ToolTip": "C:\\Users\\Nacho Gaute\\source\\repos\\Login\\Login\\Models\\Tarea.cs",
+              "RelativeToolTip": "Login\\Models\\Tarea.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T20:07:07.243Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

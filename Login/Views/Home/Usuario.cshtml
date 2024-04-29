@@ -1,0 +1,10 @@
+﻿@model IEnumerable<Login.Models.Usuario>
+
+<select class="form-control" id="Colaborador" name="Colaborador">
+
+    @foreach (var item in Model)
+    {
+
+        <option value="@item.Id"> @item.Nombre  @item.Apellido</option>
+    }
+</select>

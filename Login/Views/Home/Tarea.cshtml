@@ -1,0 +1,137 @@
+﻿@model IEnumerable<Login.Models.TareaCE>
+@Scripts.Render("~/bundles/jquery")
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <html>
+    <head>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
+        <link href="~/Content/css/tareas.css" rel="stylesheet" />
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="row">
+
+
+
+                <div class="col-md-10 col-md-offset-1">
+
+                    <div class="panel panel-default panel-table">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col col-xs-6">
+                                    <h3 class="panel-title">Tareas</h3>
+                                </div>
+                                <div class="col col-xs-6 text-right">
+                                    <button type="button" class="border-primary btn btn-sm btn-outline-primary btn-create">@Html.ActionLink("Agregar Tarea", "AgregarTarea", "")</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <table class=" table table-striped table-bordered table-list">
+                                <thead>
+                                    <tr>
+                                    <tr>
+
+                                        <th><em class="fa fa-cog"></em></th>
+                                        <th>Nombre Del Proyecto</th>
+                                        <th>Nombre Del Cliente</th>
+                                        <th>Descripcion</th>
+                                        <th>Colaborador</th>
+                                        <th>Estado</th>
+
+
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr class="bg-light">
+                                            <td align="center">
+                                                <em class="bg-transparent btn btn-sm btn-light fa fa-pencil"> @Html.ActionLink("Editar", "Editar", new { id = item.Id })</em>
+                                                <em class="bg-transparent btn btn-sm btn-light fa fa-trash"> @Html.ActionLink("Eliminar", "Eliminar", new { id = item.Id }, new { @class = "aElimina" })</em>
+                                            </td>
+
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.NombreProyecto)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.NombreCliente)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Descripcion)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.NombreColaborador)
+                                            </td>
+                                            
+                                            <td>
+
+                                                @if (item.Estado == false)
+                                                {
+
+                                                    
+                                                    <i class="m-3 btn-sm fa fa-solid fa-circle fa-lg" style="color: #ff0000;"></i>
+                                                    <div class="m-2 col col-xs-7 text-right">
+                                                        <h5>Finalizado</h5>
+                                                    </div>
+
+                                                }
+                                                else
+                                                {
+                                                    <i class="m-3 btn-sm fa fa-solid fa-circle fa-lg" style="color: #11ff00;"></i>
+                                                    <div class="m-2 col col-xs-7 text-right">
+                                                        <h5>En curso</h5>
+                                                        <button type="button" class="btn btn-sm btn-outline-danger btn-create">@Html.ActionLink("Finalizar", "EstadoTarea", new { id = item.Id })</button>
+                                                    </div>
+                                                }
+
+
+                                            </td>
+
+
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </body>
+</html>
+}
+@section scripts{
+    <script>
+        $(".aElimina").click(function (event) {
+            if (!confirm("¿Estas seguro que deseas eliminar?")) {
+                event.preventDefault();
+            }
+        });
+    </script>
+    @if (!string.IsNullOrEmpty(ViewBag.Mensaje))
+    {
+        <div class="alert alert-success">@ViewBag.Mensaje</div>
+    }
+
+    @if (!string.IsNullOrEmpty(ViewBag.Error))
+    {
+        <div class="alert alert-danger">@ViewBag.Error</div>
+    }
+}
