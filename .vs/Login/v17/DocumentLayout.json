@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Nacho Gaute\\source\\repos\\Login\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AE8B4684-226F-4DA1-970A-45254F85DA06}|Login\\Login.csproj|C:\\Users\\Nacho Gaute\\source\\repos\\Login\\login\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AE8B4684-226F-4DA1-970A-45254F85DA06}|Login\\Login.csproj|c:\\users\\nacho gaute\\source\\repos\\login\\login\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE8B4684-226F-4DA1-970A-45254F85DA06}|Login\\Login.csproj|solutionrelative:login\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE8B4684-226F-4DA1-970A-45254F85DA06}|Login\\Login.csproj|c:\\users\\nacho gaute\\source\\repos\\login\\login\\controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AE8B4684-226F-4DA1-970A-45254F85DA06}|Login\\Login.csproj|C:\\Users\\Nacho Gaute\\source\\repos\\Login\\login\\controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE8B4684-226F-4DA1-970A-45254F85DA06}|Login\\Login.csproj|solutionrelative:login\\controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{AE8B4684-226F-4DA1-970A-45254F85DA06}|Login\\Login.csproj|solutionrelative:login\\models\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE8B4684-226F-4DA1-970A-45254F85DA06}|Login\\Login.csproj|c:\\users\\nacho gaute\\source\\repos\\login\\login\\views\\acceso\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{AE8B4684-226F-4DA1-970A-45254F85DA06}|Login\\Login.csproj|C:\\Users\\Nacho Gaute\\source\\repos\\Login\\login\\views\\acceso\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AE8B4684-226F-4DA1-970A-45254F85DA06}|Login\\Login.csproj|solutionrelative:login\\views\\acceso\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -56,7 +56,7 @@
               "RelativeDocumentMoniker": "Login\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Nacho Gaute\\source\\repos\\Login\\Login\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Login\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-24T16:03:50.024Z",
               "IsPinned": true,
@@ -99,7 +99,8 @@
               "RelativeToolTip": "Login\\Views\\Home\\Integrantes.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-28T17:23:36.835Z"
+              "WhenOpened": "2024-04-28T17:23:36.835Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -111,7 +112,8 @@
               "RelativeToolTip": "Login\\Views\\Home\\Editar.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-28T17:20:55.664Z"
+              "WhenOpened": "2024-04-28T17:20:55.664Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -123,7 +125,8 @@
               "RelativeToolTip": "Login\\Views\\Home\\AgregarTarea.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-28T17:15:03.721Z"
+              "WhenOpened": "2024-04-28T17:15:03.721Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -135,7 +138,8 @@
               "RelativeToolTip": "Login\\Views\\Home\\Tarea.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-27T20:59:16.229Z"
+              "WhenOpened": "2024-04-27T20:59:16.229Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -147,7 +151,8 @@
               "RelativeToolTip": "Login\\Models\\TareaCE.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T20:57:21.899Z"
+              "WhenOpened": "2024-04-27T20:57:21.899Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
